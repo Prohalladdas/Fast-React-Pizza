@@ -53,6 +53,7 @@ function Order() {
     cart,
   } = order;
   const deliveryIn = calcMinutesLeft(estimatedDelivery);
+  console.log(id, cart); //delete this
 
   return (
     <div>
